@@ -50,9 +50,9 @@ support.encryptor9("A")
 support.encryptor9("abc")
 support.encryptor9("Abc")
 
-# encryptor 10 prints the ASCII value of the string's first character
+# encryptor 10 converts the string into lowercase, it replaces a with b and removes the letter r, it iterates the first 4 letters of the string and iterates this 5 times
 "encryptor 10"
-support.encryptor10("ABCD")
+support.encryptor10("ABCDEFEFEFEFE")
 support.encryptor10("FGHI")
 support.encryptor10("KLMN")
 support.encryptor10("PQRST")
