@@ -58,3 +58,33 @@ support.encryptor10("KLMN")
 support.encryptor10("PQRST")
 support.encryptor10("WXYZ")
 
+# my encryptor 1 
+"my encryptor 1"
+fun my-encryptor1(str1 :: String) -> String:
+  (str1) + (str1)
+end
+
+
+#| my encryptor 2 
+"my encryptor 2"
+fun my-encryptor1(str2 :: String) -> String:
+  (str1 str1)
+end
+
+# my encryptor 2 
+"my encryptor 2"
+fun my-encryptor1(str2 :: String) -> String:
+  (str1 str1)
+end
+
+# my encryptor 3 
+"my encryptor 3"
+fun my-encryptor1(str3 :: String) -> String:
+  (str1 str1)
+end
+
+# my encryptor 4 
+"my encryptor 4"
+fun my-encryptor1(str2 :: String) -> String:
+  (str1 str1)
+   end |#
