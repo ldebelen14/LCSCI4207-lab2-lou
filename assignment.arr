@@ -1,5 +1,7 @@
 import file("lab2-support.arr") as support
 
+
+# TESTING HOW THE GIVEN ENCRYPTORS WORK
 # encryptor 1 iterates string 5 times
 "encryptor 1"
 support.encryptor1("HELLO")
@@ -58,12 +60,20 @@ support.encryptor10("KLMN")
 support.encryptor10("PQRST")
 support.encryptor10("WXYZ")
 
-# my encryptor 1 
+# MY ENCRYPTORS (each encryptor will be tested using the where expression with the capitalised alphabet as the function input)
 "my encryptor 1"
 fun my-encryptor1(str1 :: String) -> String:
-  (str1) + (str1)
+  str1 + str1
+where:
+  my-encryptor1("abcdefghijklmnopqstuvwxyz") is ("abcdefghijklmnopqstuvwxyzabcdefghijklmnopqstuvwxyz")
 end
 
+"my encryptor 2"
+fun my-encryptor2(str2 :: String) -> String:
+  str1 + str1
+where:
+  my-encryptor1("abcdefghijklmnopqstuvwxyz") is ("abcdefghijklmnopqstuvwxyzabcdefghijklmnopqstuvwxyz")
+end
 
 #| my encryptor 2 
 "my encryptor 2"
@@ -88,3 +98,6 @@ end
 fun my-encryptor1(str2 :: String) -> String:
   (str1 str1)
    end |#
+
+
+# TESTING MY ENCRYPTORS (each encryptor will be tested with the capitalised alphabet as the function input)
